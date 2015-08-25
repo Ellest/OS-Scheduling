@@ -1,0 +1,38 @@
+----------------------
+Command Line Arguments
+----------------------
+
+----------
+1) vmsim
+----------
+vmsim [FRAMES] [INPUT_FILE] [ALGORITHM]
+Example: vmsim 5 vmrefs.dat LRU
+ 
+FRAMES - the total number of physical memory frames (maximum 100)
+INPUT_FILE - an input filename where a sequence of page references is stored
+ALGORITHM - (OPT | LRU | FIFO | CLOCK)
+
+----------
+2) vmgenU
+----------
+vmgenU [range] [length] [filename]
+
+----------
+3) vmgenWS
+----------
+vmgenWS [ws_size] [LB] [UB] [range] [length] [input_filename]
+
+----------------------
+Environment
+----------------------
+Ubuntu 12.04 LTS
+
+----------------------
+Authors
+----------------------
+
+WUSTL - FL2014 - CSE 422S - Lab 3
+Name: SeungJu Lee and Elliot Yun
+seungjulee@wustl.edu
+
+
